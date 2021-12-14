@@ -1,0 +1,77 @@
+/* Océane Blanchette */
+/* PFI */
+
+body {
+    background: linear-gradient(blue, purple);
+    color: blanchedalmond;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+p ins{
+    font-size: 25px;
+}
+.texte{
+    font-size: 30px;
+}
+.titre {
+    font-family: 'Garamond', 'Times New Roman', Times, serif;
+    font-size: 2em;
+    text-align: center;
+}
+.image {
+    display: flexbox;
+    width: 400px;
+    border: 10px groove gainsboro ; 
+}
+.image2 {
+    width: 400px;
+    border: 10px groove blue;
+}
+.image3 {
+    width: 30em;
+    grid-template-rows: 30px minmax(10px, 10%)
+}
+.lien {
+    padding: 0.8em;
+    background-color: aliceblue;
+    border: 1px solid blueviolet;
+    display:inline;
+    border-radius: 2vh;
+    color: darkorchid;
+}
+.lien1 {
+    width: 0.7em;
+    border: 2px double whitesmoke;
+    color: white;
+}
+.lien:hover {
+    background-color: darkorchid;
+    color: aliceblue;
+}
+.lien1:active {
+    color: darkcyan;
+}
+#grid {
+    display: grid;
+    grid-template-columns: 14fr 10fr;
+}
+.tableau {
+    background-color: purple;
+    border: 1px solid gray;
+    border-radius: 20px 2px;
+}
+.tableau1 {
+    background-color: rebeccapurple;
+    border: 1px solid gray;
+    border-radius: 20px 2px;
+}
+.liste li:nth-child(odd){
+    background: linear-gradient(blueviolet, blue);
+}
+
+@media screen and (weight:600px) {
+    body{
+        max-height: max-content;
+        max-width: max-content;
+    }
+}
